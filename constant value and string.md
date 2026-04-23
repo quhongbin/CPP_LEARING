@@ -5,7 +5,7 @@
 2. on arguments of function
 	- "const" function is regarded as constant value at runtime
 	- "constexpre" function can't indicate the arguments of function
-3. constexpr function([be uesd of in constant expression](https://learncpp.com.cn/cpp-tutorial/constexpr-variables/))
+3. constexpr function([be used of in constant expression](https://learncpp.com.cn/cpp-tutorial/constexpr-variables/))
 	- it must evaluate the result at compile-time
 
 # std::string & std::string_view
@@ -14,6 +14,9 @@
 in C++,we should avoid using C-style string that use strings around double quotation marks 
 
 string is variable-length value, unlike basic types (e.g int,unsigned int) have fixed sizes. so the data that std::string object point to is allocated in the heap, std::string object in the stack
+
+it cast expensive performance overhead that copy a data that std::string object points to, so that we shouldn't directly use "=", nor any operation of value of copying assignment
+
 # compile-time optimization
 as-if rule
 - use "const" keyword to decorate variable always
