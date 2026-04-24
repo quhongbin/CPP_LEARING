@@ -1,9 +1,11 @@
 ---
-title: memory alignment
-date: 2026-04-09
-tags:
+id: memory alignment
+aliases: []
+tags: []
 author: Hongbin Qu
+date: "2026-04-09"
 done: no
+title: memory alignment
 ---
 [[memory alignment.excalidraw]]
 
