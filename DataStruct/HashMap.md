@@ -3,9 +3,6 @@
 
 1.  [HashMap](#orgbd97472)
 
-
-<a id="orgbd97472"></a>
-
 # HashMap
 
 -   construct the reflection between key and value to archieve element-query with
@@ -13,3 +10,13 @@
 
 [[Excalidraw/HashMap|HashMap]]
 
+### performance for elements
+
+|        | array | link | hashtable |
+| :----: | :---: | ---- | --------- |
+|  qury  | O(n)  | O(n) | O(1)      |
+|  add   | O(1)  | O(1) | O(1)      |
+| delete | O(n)  | O(n) | O(1)      |
+
+# Hash conflict
+- there are 
